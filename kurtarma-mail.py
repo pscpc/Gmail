@@ -6,6 +6,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from imap_tools import MailBox
 from imap_tools import AND
+from selenium.webdriver.common.keys import Keys
 
 options = uc.ChromeOptions()
 options.add_argument("--incognito")
